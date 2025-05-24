@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This project demonstrates an end-to-end data engineering pipeline built using **Microsoft Fabric**. The focus is on ingesting and transforming Brazil's largest e-commerce dataset (from [Olist on GitHub](https://github.com/olist/datasets)) and storing the final cleansed data in **Lakehouse Delta Tables** for analytics use cases.
+This project demonstrates an end-to-end data engineering pipeline built using **Microsoft Fabric**. The focus is on ingesting and transforming Brazil's largest e-commerce dataset (from [Olist on GitHub](https://github.com/mayank953/BigDataProjects/tree/main/Project-Brazillian%20Ecommerce/Data)) and storing the final cleansed data in **Lakehouse Delta Tables** for analytics use cases.
 
 ## 🔧 Tools & Technologies Used
 

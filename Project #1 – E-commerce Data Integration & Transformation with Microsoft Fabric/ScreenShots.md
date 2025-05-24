@@ -8,11 +8,11 @@
 ![Screenshot 2025-05-24 175247](https://github.com/user-attachments/assets/f05d98ac-1977-4405-b456-4bcd313f1e23)
  # Lakehouse
  ![image](https://github.com/user-attachments/assets/42107fcb-56d9-468a-a7af-2b26812fadb3)
-# Work Space
-Lakehouse Final_Orders_Data - Lakehouse
- ----Final_Orders_Data - Semantic model (default)
- ----Final_Orders_Data - SQL analytics endpoint
- orders Dataflow Gen2 - Dataflow Gen2
+# WorkSpace
+##### Lakehouse Final_Orders_Data - Lakehouse
+##### ----Final_Orders_Data - Semantic model (default)
+##### ----Final_Orders_Data - SQL analytics endpoint
+##### orders Dataflow Gen2 - Dataflow Gen2
 ![image](https://github.com/user-attachments/assets/9a156be9-0bfc-4e80-8298-7a4e034d7d0b)
 # Querying in SQL analytics endpoint
 ![Screenshot (359)](https://github.com/user-attachments/assets/2953ddaa-046e-4cde-8d37-91c0b559a1ae)

@@ -48,3 +48,29 @@ Source = Table.NestedJoin(Orders, {"customer_id"}, Customers, {"customer_id"}, "
 #"Expanded Sellers" = Table.ExpandTableColumn(#"Expanded Products", "Sellers", {"seller_zip_code_prefix", "seller_city", "seller_state"}, {"seller_zip_code_prefix", "seller_city", "seller_state"}),
 #"Merged queries 4" = Table.NestedJoin(#"Expanded Sellers", {"product_category_name"}, Product_category_name_translations, {"product_category_name"}, "Product_category_name_translations", JoinKind.LeftOuter),
 #"Expanded Product_category_name_translations" = Table.ExpandTableColumn(#"Merged queries 4", "Product_category_name_translations", {"product_category_name_english"}, {"product_category_name_english"})
+
+#For full M Query(Link)
+
+## 🗃️ Data Storage
+
+----------------
+
+Transformed data was stored in **Delta Tables in Microsoft Fabric Lakehouse**. These tables are ready for querying in the **SQL Endpoint** and can be visualized via Power BI or used in ML models.
+
+## 📈 Outcome
+
+----------
+
+A clean and enriched ecommerce dataset, ready for further analysis such as:
+
+- 📦 Delivery performance  
+- 💳 Payment trends  
+- 📍 Sales breakdown by location  
+- 🛍️ Product category insights  
+
+## 📌 Author
+---------
+
+- **Kesari Raja Suhash**  
+- [LinkedIn](https://www.linkedin.com/in/rajasuhashkesari)  
+- *Aspiring Data Engineer | Microsoft Fabric Enthusiast*

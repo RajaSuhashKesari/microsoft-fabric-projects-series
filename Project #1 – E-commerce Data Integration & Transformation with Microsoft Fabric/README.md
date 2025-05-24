@@ -18,6 +18,8 @@ This project demonstrates an end-to-end data engineering pipeline built using **
 
 Multiple CSV files were ingested from the GitHub Olist dataset using **M Query** inside Dataflows Gen2.
 
+step by step data ingestion([Link](https://github.com/RajaSuhashKesari/microsoft-fabric-projects-series/blob/main/Project%20%231%20%E2%80%93%20E-commerce%20Data%20Integration%20%26%20Transformation%20with%20Microsoft%20Fabric/Step-by-Step%20Data%20Ingestion.md))
+
 ## 🧹 Data Transformations & Joins
 
 The following key transformations were performed:

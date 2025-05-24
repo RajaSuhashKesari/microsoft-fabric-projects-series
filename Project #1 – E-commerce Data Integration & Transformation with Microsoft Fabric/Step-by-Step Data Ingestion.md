@@ -77,3 +77,5 @@ Output = [
 * **Clean**: Eliminates code repetition across queries.
 * **Dynamic**: Easily adjustable by just modifying filenames.
 * **GitHub-Compatible**: Works well with GitHub raw file URLs when folder ingestion is not supported.
+
+If you want to directly create the queries you can copy and paste the each m query code in the new blank query(Link)[]

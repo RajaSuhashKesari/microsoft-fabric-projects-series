@@ -49,7 +49,7 @@ Source = Table.NestedJoin(Orders, {"customer_id"}, Customers, {"customer_id"}, "
 #"Merged queries 4" = Table.NestedJoin(#"Expanded Sellers", {"product_category_name"}, Product_category_name_translations, {"product_category_name"}, "Product_category_name_translations", JoinKind.LeftOuter),
 #"Expanded Product_category_name_translations" = Table.ExpandTableColumn(#"Merged queries 4", "Product_category_name_translations", {"product_category_name_english"}, {"product_category_name_english"})
 ```
-# For full M Query(Link)
+# For full M Query(Link())
 
 ## 🗃️ Data Storage
 
